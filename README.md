@@ -64,7 +64,6 @@ I found out that in css you can add conditions for the size of the screen. This 
 
 ## Author
 
-- Website - [Ntando](https://www.your-site.com)
 - Frontend Mentor - [Ntando](https://www.frontendmentor.io/profile/mntando)
 - Discord - [mntan](https://discord.com/channels/@mntan)
 - GitHub - [mntando](https://github.com/mntando)
