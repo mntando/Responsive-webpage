@@ -1,0 +1,112 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 60vh;
+    width: 35vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#f_0 {
+    font-size: small;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #757575;
+}
+
+span#f_0 {
+    text-decoration: line-through;
+    vertical-align: middle;
+    padding: 0 1rem 0.5rem 0;
+}
+
+span#f_1 {
+    color: hsl(158, 36%, 37%);
+}
+
+p#f_1 {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: xx-large;
+    margin: 0;
+}
+
+#center {
+    margin-top: 5%;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: small;
+    font-family: Montserrat;
+    font-weight: 500;
+    width: 100%;
+    padding: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+span#btn_text {
+    padding-left: 0.5rem;
+    vertical-align: top;
+}
+
+.top {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.below {
+    float: left;
+    width: 50%;
+}
+
+.text {
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {    
+    .main {
+        height: 90%;
+        width: 87%;
+    }
+    
+    .top {
+    height: 43%;
+    width: 100%;
+    }
+    
+    .below {
+        height: 57%;
+        width: 100%;
+    }
+
+    #center {
+        margin-top: 10%;
+    }
+}
